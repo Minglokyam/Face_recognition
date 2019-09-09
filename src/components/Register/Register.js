@@ -23,7 +23,7 @@ class Register extends Component{
     }
 
     onSubmitSignin = () => {
-        fetch('http://localhost:3000/register', {
+        fetch('https://quiet-depths-83314.herokuapp.com/register', {
             method: 'post', 
             headers: {'Content-Type': 'application/json',
             'Accept': 'application/json'}, 
